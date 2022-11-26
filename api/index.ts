@@ -1,6 +1,7 @@
 import * as http from "http";
 import fetch from "node-fetch";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (req: http.IncomingMessage, res: http.ServerResponse) => {
   console.log("sample log from sample-project");
 
